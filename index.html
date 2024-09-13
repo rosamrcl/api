@@ -7,27 +7,31 @@
     <title>Integração de API</title>
 </head>
 <body>
-    <div class="container d-flex justify-content-center">
-        
-        <div class="card w-75 mb-3">
-            <div class="card-body">
-              <h5 id="titulo" class="card-title">Card title</h5>
-              <p id="corpo" class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-             
+    <section class="metodoget">
+      <div class="container d-flex justify-content-center">
+      
+          <div class="card w-75 mb-3">
+              <div class="card-body">
+                <h5 id="titulo" class="card-title">Card title</h5>
+                <p id="corpo" class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      
+              </div>
             </div>
-          </div>
-    </div>
-    <div class="container">
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Titulo post</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1">
       </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </section>
+    <section class="metodopostar">
+      <div class="container">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Titulo post</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Conteúdo do post</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <button onclick="enviar" class="btn btn-primary">Enviar</button>
+        </div>
       </div>
-
-    </div>
+    </section>
 </body>
 <script src="./index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
