@@ -13,8 +13,8 @@ fetch(urlbasica+'/1')
 teste();
 
 function enviar(){
-    const titulo=document.getElementById ('exampleFormControlInput1');
-    const post=document.getElementById ('exampleFormControlTextarea1')
+    const titulo=document.getElementById ('exampleFormControlInput1').value;
+    const post=document.getElementById ('exampleFormControlTextarea1').value;
     fetch(urlbasica, {
         method: 'POST',
         body: JSON.stringify({
