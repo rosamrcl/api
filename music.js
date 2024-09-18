@@ -18,7 +18,17 @@ function getMusicLyrics(){
             containerMusica.appendChild(elementoTexto);
 
             if (data.mus[0].translate[0]){
-                alert('existe tradução')
+            
+            let elementoTituloTraducao=document.createElement('h1');
+            let elementoTextoTraducao=document.createElement('p');
+            
+            elementoTituloTraducao.innerHTML=`Tradução`;
+            elementoTextoTraducao.innerHTML=`${data.mus[0].translate[0].text}`;
+            
+            containerTrans.appendChild(elementoTituloTraducao);
+            containerTrans.appendChild(elementoTextoTraducao);
+
+                
             }
 
             
