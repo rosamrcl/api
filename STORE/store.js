@@ -1,4 +1,8 @@
-const ApiUrl "https://fakestoreapi.com/products"
-fetch('https://fakestoreapi.com/products')
+
+function card(){
+fetch('https://fakestoreapi.com/products/1')
             .then(res=>res.json())
             .then(json=>console.log(json))
+
+
+}
